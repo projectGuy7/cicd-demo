@@ -2,7 +2,7 @@
 
 A simple calculator app that demonstrates **Continuous Integration & Continuous Deployment** using GitHub Actions.
 
----
+-----
 
 ## 📁 Project Structure
 
