@@ -6,9 +6,8 @@ import pytest
 import sys
 import os
 
-# Add src to path so we can import calculator
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../..', 'src'))
-from calculator import add, subtract, multiply, divide, power
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from src.calculator import add, subtract, multiply, divide, power
 
 class TestAddition:
     def test_add_positive_numbers(self):
