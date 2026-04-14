@@ -15,7 +15,6 @@ on:
 
 # JOBS: What does the pipeline actually DO?
 jobs:
-
   # ─────────────────────────────────────────
   # JOB 1: Run Tests (Continuous Integration)
   # ─────────────────────────────────────────
