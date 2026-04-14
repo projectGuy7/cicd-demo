@@ -2,11 +2,6 @@
 Tests for the calculator module.
 These run automatically via GitHub Actions on every push!
 """
-import os
-import sys
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
 import pytest
 
 from src.calculator import add, subtract, multiply, divide, power
