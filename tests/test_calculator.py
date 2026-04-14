@@ -2,12 +2,15 @@
 Tests for the calculator module.
 These run automatically via GitHub Actions on every push!
 """
-import pytest
-import sys
 import os
+import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+import pytest
+
 from src.calculator import add, subtract, multiply, divide, power
+
 
 class TestAddition:
     def test_add_positive_numbers(self):
